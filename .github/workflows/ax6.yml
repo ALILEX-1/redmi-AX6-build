@@ -20,8 +20,12 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/lede
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/robimarko/openwrt
+  # https://github.com/immortalwrt/immortalwrt
+  #REPO_BRANCH: master
+  REPO_BRANCH: ipq807x-5.15-pr
+  #REPO_URL: https://github.com/coolsnowwolf/lede
+  #REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config/ARM/ax6.config
   DIY_P1_SH: scripts/diy-part1.sh
